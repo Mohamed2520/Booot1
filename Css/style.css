@@ -1,0 +1,33 @@
+.home{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.home2 h2::after{
+    content: "";
+    animation-name: Mariam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Mariam {
+    0%{content: "|";}
+    10%{content: "F|";}
+    20%{content: "Fr|";}
+    30%{content: "Fro|";}
+    40%{content: "Fron|";}
+    50%{content: "Front|";}
+    60%{content: "Fron|";}
+    70%{content: "Fro|";}
+    80%{content: "Fr|";}
+    90%{content: "F|";}
+    100%{content: "|";}
+}
